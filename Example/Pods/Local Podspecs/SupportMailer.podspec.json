@@ -1,0 +1,22 @@
+{
+  "name": "SupportMailer",
+  "version": "0.1.0",
+  "summary": "A short description of SupportMailer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Michael Fellows/SupportMailer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Michael Fellows": "michael.fellows12@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Michael Fellows/SupportMailer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SupportMailer/Classes/**/*"
+}

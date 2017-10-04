@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MessageUI
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func supportMailerButtonPressed(_ sender: Any) {
+        let recipients = ["michael+supportmailer@broadwaylab.com"]
+        let subject = "SupportMailer: Customer Support"
+        let body = "What's your question?"
+        let supportMailer = SupportMailController(toRecipients: recipients,
+                                                  subject: subject,
+                                                  body: body)
+        supportMailer.mailComposeDelegate = self
+        present(supportMailer, animated: true, completion: nil)
+    }
+}
+
+extension ViewController: MFMailComposeViewControllerDelegate {
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
+    }
 }
 

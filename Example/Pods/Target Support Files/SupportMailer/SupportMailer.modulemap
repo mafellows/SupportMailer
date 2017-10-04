@@ -1,0 +1,6 @@
+framework module SupportMailer {
+  umbrella header "SupportMailer-umbrella.h"
+
+  export *
+  module * { export * }
+}
