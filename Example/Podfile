@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SupportMailer_Example' do
+  pod 'SupportMailer', :path => '../'
+
+  target 'SupportMailer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
