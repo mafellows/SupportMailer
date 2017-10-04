@@ -12,9 +12,9 @@
 		62E8E59EB9FFA8A8DECB4FF77B4401C7 /* Pods-SupportMailer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0215084BBD844C64616F5761AF7440 /* Pods-SupportMailer_Example-dummy.m */; };
 		8C3D70F89CF0E634740E3B18555D34E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9BD39206CC63785BDC9B2816182CD3E3 /* Pods-SupportMailer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A93CFE690E5294D70E0F707ABF61BDE /* Pods-SupportMailer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D7251B51F85A7B700B95F30 /* SupportMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7251B41F85A7B700B95F30 /* SupportMailViewController.swift */; };
 		AB6DE844E3AF8757A74965D4A3408BE6 /* SupportMailer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B84B4A7DA8E23708EBC272E0F2418A /* SupportMailer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5708385E89BBFAEAD3ACCDCDD9C310B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C25C51857A0AA13D1D6FB1F8B0DCE310 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6C1660BF76579BF5FB9B36128CE11 /* ReplaceMe.swift */; };
 		CB3B2D9371A12B3C7142B875A3FE501A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E50FA4192D41631EA10A1F36154F2FC9 /* Pods-SupportMailer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0C6663BD82E37DC5B70B416EADF928 /* Pods-SupportMailer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -36,29 +36,29 @@
 		3A93CFE690E5294D70E0F707ABF61BDE /* Pods-SupportMailer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SupportMailer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		47AB2ECFC3EBA9F69119A358BD7DF2B2 /* SupportMailer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SupportMailer-prefix.pch"; sourceTree = "<group>"; };
 		4891FD7130B835785BA5A7DBF8E651E3 /* Pods-SupportMailer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SupportMailer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		49E27EBA47F55ECEA35808B7B278390B /* SupportMailer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SupportMailer.framework; path = SupportMailer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E27EBA47F55ECEA35808B7B278390B /* SupportMailer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SupportMailer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		512FB0CD50013203667A6CF316CDA686 /* SupportMailer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SupportMailer.xcconfig; sourceTree = "<group>"; };
-		5834BFA788003BC2EE6306F870A829B0 /* Pods-SupportMailer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SupportMailer_Tests.modulemap"; sourceTree = "<group>"; };
+		5834BFA788003BC2EE6306F870A829B0 /* Pods-SupportMailer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SupportMailer_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6906CA977B11E559BE14D05110D0B607 /* Pods-SupportMailer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SupportMailer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		71F587326E3E14F89EB8334BBB8F43FC /* Pods_SupportMailer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SupportMailer_Example.framework; path = "Pods-SupportMailer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F587326E3E14F89EB8334BBB8F43FC /* Pods_SupportMailer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupportMailer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A9B6E8DF7CD33492F0CB6175A24885 /* Pods-SupportMailer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SupportMailer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7A65FDA5E6E87FA71AA5AD7F84C55EC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87B92200CAFEA4D82097E642F2D5F299 /* Pods-SupportMailer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SupportMailer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AAD3DE8E0EB25C4F205722D83A13D091 /* SupportMailer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SupportMailer.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D7251B41F85A7B700B95F30 /* SupportMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportMailViewController.swift; sourceTree = "<group>"; };
+		AAD3DE8E0EB25C4F205722D83A13D091 /* SupportMailer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SupportMailer.modulemap; sourceTree = "<group>"; };
 		AF668379BCB9AB370B69A9648D868D77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2C6C1660BF76579BF5FB9B36128CE11 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		BA0C6663BD82E37DC5B70B416EADF928 /* Pods-SupportMailer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SupportMailer_Example-umbrella.h"; sourceTree = "<group>"; };
 		BC0215084BBD844C64616F5761AF7440 /* Pods-SupportMailer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SupportMailer_Example-dummy.m"; sourceTree = "<group>"; };
 		C280BD8B9D1D1678D7A67282DDF01D7B /* Pods-SupportMailer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SupportMailer_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C855958BD64DE1A3ADEF75A090569ADB /* Pods-SupportMailer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SupportMailer_Example.modulemap"; sourceTree = "<group>"; };
+		C855958BD64DE1A3ADEF75A090569ADB /* Pods-SupportMailer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SupportMailer_Example.modulemap"; sourceTree = "<group>"; };
 		CA3809A0F71250C1B651A78CFFC4217B /* Pods-SupportMailer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SupportMailer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CD45AA99B1B408CAD8DA5E797FF97E0A /* Pods-SupportMailer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SupportMailer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D348894692D8E4217E9656535A5D136C /* Pods-SupportMailer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SupportMailer_Example-resources.sh"; sourceTree = "<group>"; };
 		D6B84B4A7DA8E23708EBC272E0F2418A /* SupportMailer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SupportMailer-umbrella.h"; sourceTree = "<group>"; };
 		DFECB820B316F5C550A169DF372066A6 /* SupportMailer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SupportMailer-dummy.m"; sourceTree = "<group>"; };
-		E1DAFE1A457D88E502882C190259D618 /* Pods_SupportMailer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SupportMailer_Tests.framework; path = "Pods-SupportMailer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DAFE1A457D88E502882C190259D618 /* Pods_SupportMailer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupportMailer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED212A26D31BED5C73633974B28E3A28 /* Pods-SupportMailer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SupportMailer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF452ECE549D8C4CB66E500C16365F30 /* Pods-SupportMailer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SupportMailer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F566BDFAF86717D1E692EB944818E9D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,9 +95,8 @@
 		1FF039E2D7987F9A7B9BC6EA29ACA87D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B2C6C1660BF76579BF5FB9B36128CE11 /* ReplaceMe.swift */,
+				9D7251B41F85A7B700B95F30 /* SupportMailViewController.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -190,7 +189,6 @@
 			children = (
 				1FF039E2D7987F9A7B9BC6EA29ACA87D /* Classes */,
 			);
-			name = SupportMailer;
 			path = SupportMailer;
 			sourceTree = "<group>";
 		};
@@ -314,6 +312,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					09205AD8A504A6174B0F47BF29D3D476 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,7 +342,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25C51857A0AA13D1D6FB1F8B0DCE310 /* ReplaceMe.swift in Sources */,
 				5A79918326FE26C61830EB9FB4542453 /* SupportMailer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62E8E59EB9FFA8A8DECB4FF77B4401C7 /* Pods-SupportMailer_Example-dummy.m in Sources */,
+				9D7251B51F85A7B700B95F30 /* SupportMailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD45AA99B1B408CAD8DA5E797FF97E0A /* Pods-SupportMailer_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -612,6 +616,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF452ECE549D8C4CB66E500C16365F30 /* Pods-SupportMailer_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
