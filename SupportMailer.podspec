@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Michael Fellows' => 'michael.fellows12@gmail.com' }
   s.source           = { :git => 'https://github.com/Michael Fellows/SupportMailer.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/mafellows'
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '8.0'
   s.source_files = 'SupportMailer/Classes/**/*'
   s.frameworks = 'MessageUI'
 end
