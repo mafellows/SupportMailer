@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/mafellows/SupportMailer'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Michael Fellows' => 'michael.fellows12@gmail.com' }
-  s.source           = { :git => 'https://github.com/Michael Fellows/SupportMailer.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mafellows/SupportMailer.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/mafellows'
   s.ios.deployment_target = '8.0'
   s.source_files = 'SupportMailer/Classes/**/*'
